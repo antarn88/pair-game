@@ -65,5 +65,4 @@ input[type="checkbox"] {
 #card9__checkbox:checked ~ #card9,
 #card10__checkbox:checked ~ #card10 {
 	background-color: green;
-	color: rgb(255, 255, 255);
 }
