@@ -8,6 +8,7 @@ html, body {
 	background-color: rgb(131, 210, 227);
 	padding: 0;
 	height: 100%;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: "Noto Sans JP", sans-serif;
 	user-select: none;
@@ -30,7 +31,7 @@ html, body {
 	font-size: 2rem;
 }
 .time {
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 .card-container {
 	display: flex;
@@ -38,6 +39,7 @@ html, body {
 	align-items: center;
 	justify-content: center;
 	margin-top: 1.5rem;
+	margin-bottom: 5rem;
 }
 .card {
 	margin: 1.3rem;
@@ -45,5 +47,23 @@ html, body {
 	background-color: rgb(255, 255, 255);
 	width: 11rem;
 	height: 17rem;
+	line-height: 17rem;
 	color: rgb(0, 0, 0);
+	font-size: 3.5rem;
+}
+input[type="checkbox"] {
+	display: none;
+}
+#card1__checkbox:checked ~ #card1,
+#card2__checkbox:checked ~ #card2,
+#card3__checkbox:checked ~ #card3,
+#card4__checkbox:checked ~ #card4,
+#card5__checkbox:checked ~ #card5,
+#card6__checkbox:checked ~ #card6,
+#card7__checkbox:checked ~ #card7,
+#card8__checkbox:checked ~ #card8,
+#card9__checkbox:checked ~ #card9,
+#card10__checkbox:checked ~ #card10 {
+	background-color: green;
+	color: rgb(255, 255, 255);
 }
